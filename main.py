@@ -28,6 +28,7 @@ def predict(data: dict):
         "YearsExperience": exp,
         "PredictedSalary": float(result[0])
     }
-    #py -3.13 -m uvicorn api:app --reload
+    #py -3.13 -m uvicorn main:app --reload
    # http://127.0.0.1:8000/docs
   # to check post on web
+  
