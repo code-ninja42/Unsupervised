@@ -1,5 +1,5 @@
 # Use the 'slim' version for a much smaller image size (faster deployments)
-FROM python:3.10-slim
+FROM python:3.13-slim
 
 WORKDIR /app
 
