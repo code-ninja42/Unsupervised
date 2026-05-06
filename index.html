@@ -119,7 +119,7 @@ function predictSalary() {
 
     resultBox.innerText = "Predicting...";
 
-    fetch("/predict", {
+    fetch("/predictSalary", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
