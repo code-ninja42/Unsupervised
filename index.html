@@ -119,7 +119,7 @@ function predictSalary() {
 
     resultBox.innerText = "Predicting...";
 
-    fetch("/predictSalary", {
+    fetch("https://my-project-y3gr.onrender.com/predict", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
